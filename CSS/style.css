@@ -1,0 +1,23 @@
+*{
+	border: 1px solid #000000;
+}
+
+
+
+#taskbar{
+	background: #ff0000;
+	height: 10%;
+	width: 100%;
+}
+
+#aboutMe{
+	background: #00ff00;
+	height: 30%;
+	width: 100%;
+}
+
+#projects{
+	background: #0000ff;
+	height: 30%;
+	width: 100%;
+}
