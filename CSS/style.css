@@ -13,7 +13,6 @@ body {
 
 #nav {
 	text-align: center;
-	padding: 15px 0;
 }
 
 #nav > li {
@@ -22,7 +21,7 @@ body {
 }
 
 #intro-cont {
-	background: #dd00dd;
+	background: #ffffff;
 	border-radius: -20px -20px 0 0;
 }
 
@@ -31,17 +30,20 @@ body {
 }
 
 #aboutMe {
-	background: #00ff00;
+	background: #ffffff;
 	height: 30%;
 }
 
 #project-cont {
-	background: #0000ff;
+	background: #ffffff;
 	height: 30%;
 }
 
 #projects {
 
+}
+
+.sections{
 }
 
 .center {
