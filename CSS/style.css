@@ -5,11 +5,20 @@ body {
 	background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
 }
 
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+p{
+	text-indent: 2em;
+}
+
 #taskbar {
 	background: #ffffff;
 	height: 50px;
-	margin-bottom: 10px;
-	/*border-radius: 0 0 20px 20px;*/
+	margin: 15px auto 10px auto;
+	border-radius: 20px 20px 0 0;
 }
 
 #nav {
@@ -49,6 +58,18 @@ body {
 
 #social{
 	background: #ffffff;
+	text-align: center;
+	border-radius: 0 0 20px 20px;
+}
+
+#accounts > li{
+	display: inline-block;
+	margin: 0 4%;
+}
+
+.icons{
+	height: 50px;
+	width: 50px;
 }
 
 .sections{
