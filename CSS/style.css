@@ -8,7 +8,8 @@ body {
 #taskbar {
 	background: #ffffff;
 	height: 50px;
-	border-radius: 0 0 20px 20px;
+	margin-bottom: 10px;
+	/*border-radius: 0 0 20px 20px;*/
 }
 
 #nav {
@@ -22,6 +23,7 @@ body {
 
 #intro-cont {
 	background: #ffffff;
+	margin-bottom: 10px;
 	border-radius: -20px -20px 0 0;
 }
 
@@ -29,18 +31,24 @@ body {
 	text-align: center;
 }
 
-#aboutMe {
-	background: #ffffff;
-	height: 30%;
-}
-
 #project-cont {
 	background: #ffffff;
 	height: 30%;
+	margin-bottom: 10px;
 }
 
 #projects {
 
+}
+
+#aboutMe {
+	background: #ffffff;
+	height: 30%;
+	margin-bottom: 10px;
+}
+
+#social{
+	background: #ffffff;
 }
 
 .sections{
