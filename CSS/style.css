@@ -1,8 +1,8 @@
-
 body {
 	background: #085078; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #085078 , #85D8CE); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+	background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+	height: 100%;       
 }
 
 a{
@@ -42,12 +42,11 @@ p{
 
 #project-cont {
 	background: #ffffff;
-	height: 30%;
 	margin-bottom: 10px;
 }
 
-#projects {
-
+#project-div {
+	width: 100%;
 }
 
 #aboutMe {
@@ -86,3 +85,16 @@ p{
 	display: block;
 }
 
+.clearfix{
+	overflow: auto;
+}
+
+.right{
+	float: right;
+	clear: left;
+}
+
+.left{
+	float: left;
+	clear: right;
+}
