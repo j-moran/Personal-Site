@@ -1,8 +1,7 @@
 body {
 	background: #085078; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #085078 , #85D8CE); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-	height: 100%;       
+	background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
 }
 
 a{
@@ -10,8 +9,8 @@ a{
 	text-decoration: none;
 }
 
-p{
-	text-indent: 2em;
+#total-cont{
+
 }
 
 #taskbar {
@@ -19,10 +18,13 @@ p{
 	height: 50px;
 	margin: 15px auto 10px auto;
 	border-radius: 20px 20px 0 0;
+	display: flex;
+	align-items: center;
 }
 
 #nav {
 	text-align: center;
+	width: 100%;
 }
 
 #nav > li {
@@ -43,10 +45,8 @@ p{
 #project-cont {
 	background: #ffffff;
 	margin-bottom: 10px;
-}
-
-#project-div {
-	width: 100%;
+	text-align: center;
+	overflow: auto;
 }
 
 #aboutMe {
@@ -66,16 +66,37 @@ p{
 	margin: 0 4%;
 }
 
+.project-div {
+	width: 97.5%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	background: #bbbbbb;
+	color: white;
+	margin: 6px auto;
+	border-radius: 20px;
+}
+
+.para-div{
+	background: #ffffff;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.thumb-div{
+	height: 98%;
+	margin: 0 auto;
+}
+
 .icons{
 	height: 50px;
 	width: 50px;
 }
 
-.sections{
-}
-
 .center {
-	width: 75%;
+	width: 80%;
 	margin: 0 auto;
 }
 
