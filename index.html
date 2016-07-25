@@ -29,17 +29,38 @@
 				<p>This is where I will post my past and current projects. Come back every so often and there will be something new that has been added to the collection. The projects that have been removed from the showcase will continue to be displayed on my GitHub page as well as regular updates to my twitter account.</p>
 
 				<div id="projects" class="">
-					<div class="project-div clearfix">
+					<div class="project-div">
+						<div class="carousel-cont active">
+							<script type="text/javascript">
+								carousel();
+							</script>
+							<div id="thumb-cont">
+								<ol class="content">
+									<li><img class="thumbs current" src="Assets/Thumbs/ColorGame.jpg"></li>
+									<li><img class="thumbs" src="Assets/Thumbs/Coloring.jpg"></li>
+									<li><img class="thumbs" src="Assets/Thumbs/QuoteGen.jpg"></li>
+									<li><img class="thumbs" src="Assets/Thumbs/CSS3_AndroidLogo.jpg"></li>
+								</ol>
+							</div>
+							<div id="dot-cont">
+								
+							</div>
+						</div>
+					</div>
+
+					<div class="project-div">
 						<div class="thumb-div">
 							<a href="http://j-moran.github.io/RGB-Color-Game" class="left"><img src="Assets/Thumbs/ColorGame.jpg" alt="Javascript Color Game" class="thumbs"></a>
 						</div>
 						<div class="para-div">
+							<h6 class="title">RGB Color Guessing Game</h6><br>
 							<p>This is a project built entirely using Javascript. This was a beginner project to learn the ins and outs of selecting various objects from within the DOM and manipulating them.</p>
 						</div>
 					</div>
 
-					<div class="project-div clearfix">
+					<div class="project-div">
 						<div class="para-div">
+							<h6 class="title">Simple Drawing App</h6><br>
 							<p>This project was a way to play with various events using JQuery and Javascript.</p>
 						</div>
 						<div class="thumb-div">
@@ -47,17 +68,19 @@
 						</div>
 					</div>
 					
-					<div class="project-div clearfix">
+					<div class="project-div">
 						<div class="thumb-div">
 							<a href="http://j-moran.github.io/RandomQuoteGen" class="left"><img src="Assets/Thumbs/QuoteGen.jpg" alt="Random Quote Generator" class="thumbs"></a>
 						</div>
 						<div class="para-div">
+							<h6 class="title">Random Quote Generator</h6><br>
 							<p>This page is a simple random quote generator built entirely using javascript.</p>
 						</div>
 					</div>
 					
-					<div class="project-div clearfix">
+					<div class="project-div">
 						<div class="para-div">
+							<h6 class="title">CSS3 Android Logo</h6><br>
 							<p>One of my favorite projects thus far due to its simplicity. This is just the Android logo, but it was created and slightly animated using CSS3 transitions.</p>
 						</div>
 						<div class="thumb-div">
@@ -102,6 +125,8 @@
 					<li><a href="https://twitter.com/johnmoran225"><img src="Assets/Icons/twitter.svg" alt="Twitter" class="icons"></a></li>
 				</ul>
 			</div>
-		</div>	
+		</div>
+
+		<script src="JS/index.js" type="text/javascript"></script>	
 	</body>
 </html>

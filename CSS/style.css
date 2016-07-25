@@ -76,11 +76,27 @@ a{
 	border-radius: 20px;
 }
 
-.para-div{	
+.carousel-cont {
+
+}
+
+.current {
+	display: block;
+}
+
+.content li {
+	display: none;
+}
+
+.para-div {	
 	width: 50%;
 	text-align: center;
 	margin: 0 auto;
 	height: 100%;
+}
+
+.title {
+
 }
 
 .thumb-div{
@@ -103,18 +119,4 @@ a{
 	width: 250px;
 	display: block;
 	margin: 10px 0;
-}
-
-.clearfix{
-	overflow: auto;
-}
-
-.right{
-	float: right;
-	clear: left;
-}
-
-.left{
-	float: left;
-	clear: right;
 }
