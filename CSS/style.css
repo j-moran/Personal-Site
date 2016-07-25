@@ -72,13 +72,11 @@ a{
 	display: flex;
 	align-items: center;
 	background: #bbbbbb;
-	color: white;
 	margin: 6px auto;
 	border-radius: 20px;
 }
 
-.para-div{
-	background: #ffffff;
+.para-div{	
 	width: 50%;
 	text-align: center;
 	margin: 0 auto;
@@ -86,7 +84,7 @@ a{
 }
 
 .thumb-div{
-	height: 98%;
+	height: 75%;
 	margin: 0 auto;
 }
 
@@ -101,9 +99,10 @@ a{
 }
 
 .thumbs{
-	height: 240px;
-	width: 300px;
+	height: 200px;
+	width: 250px;
 	display: block;
+	margin: 10px 0;
 }
 
 .clearfix{
