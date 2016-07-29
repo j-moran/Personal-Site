@@ -3,6 +3,7 @@ var current = '';
 var next = document.querySelector('#next');
 var prev = document.querySelector('#previous');
 var buttons = document.querySelectorAll('button');
+var dots = document.querySelector('#dot-cont');
 var slideCount = 0;
 
 //Start slideshow on first image
@@ -34,7 +35,7 @@ function changeSlide(option){
 			break;
 	};
 
-	current.className = ('slide inactive');
+	current.className = 'slide inactive';
 	current = items[slideCount];
 	current.className = 'slide active';
 };

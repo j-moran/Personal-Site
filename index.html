@@ -5,34 +5,35 @@
 	<link rel="stylesheet" type="text/css" href="CSS/CSSreset.css">
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<link rel="stylesheet" type="text/css" href="CSS/carousel.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 	<body>
 		<div id="total-cont">
-			<div id="taskbar" class="center">
-				<ul id="nav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#aboutMe">About</a></li>
-					<li><a href="#project-cont">Projects</a></li>
-					<!-- <li><a href="#">Resume</a></li> -->
-					<li><a href="#social">Connect</a></li>
-					<!-- <li><a href="#">Blog</a></li> -->
-					<!-- <li><a href="#">Contact</a></li> -->
-				</ul>
-			</div>
+			<header>
+				<div id="taskbar" class="center">
+					<ul id="nav" class="text">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#aboutMe">About</a></li>
+						<li><a href="#project-cont">Projects</a></li>
+						<!-- <li><a href="#">Resume</a></li> -->
+						<li><a href="#social">Connect</a></li>
+						<!-- <li><a href="#">Blog</a></li> -->
+						<!-- <li><a href="#">Contact</a></li> -->
+					</ul>
+				</div>
+			</header>
 
-			<div id="intro-cont" class="center">
-				<div id="intro">
+				<div id="intro" class="text">
 					<p>Welcome to my site. Displayed is some of my current and past work. I will be constantly updating the site with new projects and ideas.</p>
 				</div>
-			</div>
 
-			<div id="project-cont" class="center ">
+			<div id="project-cont" class="center">
 				<p>This is where I will post my past and current projects. Come back every so often and there will be something new that has been added to the collection. The projects that have been removed from the showcase will continue to be displayed on my GitHub page as well as regular updates to my twitter account.</p>
 
 				<div id="projects" class="">
 					<div class="project-div">
 						<div class="carousel-cont clearfix">
-							<div id="prev-div" class="nav left">
+							<div id="prev-div" class="nav">
 								<button id="previous" class="nav-btn"><-</button>
 							</div>
 							
@@ -86,7 +87,10 @@
 								</div>
 							</div>
 							<div id="dot-cont">
-								
+								<div><i class="fa fa-circle"></i></div>
+								<div><i class="fa fa-circle"></i></div>
+								<div><i class="fa fa-circle"></i></div>
+								<div><i class="fa fa-circle"></i></div>
 							</div>
 
 							<div id="next-div" class="nav right">
@@ -97,7 +101,7 @@
 				</div>
 			</div>
 
-			<div id="aboutMe" class="center ">
+			<div id="aboutMe" class="center text">
 				<p>Hello! My name is John Moran. I am curreently 22 years old and working towards my Bachelors of Business Administration degree at Western Michigan University With a major in Computer Information Systems. I like to think of myself as a prospective junior developer who is always searching for new things to learn. I have always had a love of technology and working with people. This brought me into the IT field and ever since then I have pushed myself to become better and better at what I do.. I have an extensive background in the world of IT. I have worked as a computer repair technician, a Level-2 Helpdesk technician, and a Field Technician just to name a few of the roles I've held. My focus over the last year has been to increase my knowledge of the web programming world. I first began my programming journey in high school with a couple of introduction to C++ courses and my love of programming began. From there I moved on to wanting to create my own web pages and build web applications. I have been trudging my way through learning all of the basics to build a solid footing in HTML, CSS, and especially Javascript. I am always hungry to learn more and I work hard to learn about the things that interest me. This site is an extension of what I have learned and will be my canvas for displaying all that I have learned.</p><br>
 
 				<p>Outside of work and to take a break from technology I have myriad other interests including, but not limited to:</p><br>
@@ -123,7 +127,7 @@
 				</ul>
 			</div>
 
-			<div id="social" class="center">
+			<div id="social" class="center text">
 				<p>Below you will find links to my various social media accounts. Feel free to follow me on any or use them to reach out to me. Please keep all corespondence proffesional.</p><br>
 
 				<ul id="accounts">
@@ -134,6 +138,7 @@
 			</div>
 		</div>
 
+		<script src="https://use.fontawesome.com/974fdf2441.js"></script>
 		<script src="JS/index.js" type="text/javascript"></script>
 		<script src="JS/carousel.js" type="text/javascript"></script>	
 	</body>

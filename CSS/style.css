@@ -1,23 +1,27 @@
+* {
+	font-family: 'Roboto', 'Arial', sans-serif;
+}
+
 body {
 	background: #085078; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #085078 , #85D8CE); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
 }
 
-a{
+a {
 	color: #000000;
 	text-decoration: none;
 }
 
 #total-cont{
-
+	background: #ffffff;
+	width: 60%;
+	margin: 0 auto;
 }
 
 #taskbar {
-	background: #ffffff;
 	height: 50px;
-	margin: 15px auto 10px auto;
-	border-radius: 20px 20px 0 0;
+	margin: 0px auto 10px auto;
 	display: flex;
 	align-items: center;
 }
@@ -33,32 +37,29 @@ a{
 }
 
 #intro-cont {
-	background: #ffffff;
 	margin-bottom: 10px;
-	border-radius: -20px -20px 0 0;
 }
 
 #intro {
 	text-align: center;
 }
 
+#dot-cont {
+	color: #ffffff;
+}
+
 #project-cont {
-	background: #ffffff;
 	margin-bottom: 10px;
 	text-align: center;
 	overflow: auto;
 }
 
 #aboutMe {
-	background: #ffffff;
-	height: 30%;
 	margin-bottom: 10px;
 }
 
 #social{
-	background: #ffffff;
 	text-align: center;
-	border-radius: 0 0 20px 20px;
 }
 
 #accounts > li{
@@ -66,8 +67,17 @@ a{
 	margin: 0 4%;
 }
 
+#next-div {
+	height: 100%;
+}
+
+.text {
+	color: #444444;
+	line-height: 1.5;
+}
+
 .project-div {
-	width: 97.5%;
+	width: 99%;
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -85,6 +95,7 @@ a{
 
 .thumb-div{
 	height: 75%;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -100,7 +111,7 @@ a{
 
 .thumbs{
 	height: 200px;
-	width: 250px;
+	width: 100%;
 	display: block;
 	margin: 10px auto;
 }
