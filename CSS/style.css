@@ -2,10 +2,22 @@
 	font-family: 'Roboto', 'Arial', sans-serif;
 }
 
+html {
+	height: 100%;
+	position: absolute;
+}
+
 body {
 	background: #085078; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #085078 , #85D8CE); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */     
+	background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100%;
+}
+
+header {
+	height: 30%;
+	width: 100%;
+	line-height: 1.2;
 }
 
 a {
@@ -19,16 +31,11 @@ a {
 	margin: 0 auto;
 }
 
-#taskbar {
-	height: 50px;
-	margin: 0px auto 10px auto;
-	display: flex;
-	align-items: center;
-}
-
 #nav {
 	text-align: center;
 	width: 100%;
+	position: relative;
+	top: 80%;
 }
 
 #nav > li {
@@ -86,7 +93,7 @@ a {
 	border-radius: 20px;
 }
 
-.para-div {	
+.para-div {
 	width: 50%;
 	text-align: center;
 	margin: 0 auto;
