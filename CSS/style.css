@@ -25,6 +25,16 @@ a {
 	text-decoration: none;
 }
 
+#logo-cont {
+	text-align: center;
+}
+
+#logo {
+	height: 150px;
+	width: 150px;
+	margin: 0 auto;
+}
+
 #total-cont{
 	background: #ffffff;
 	width: 60%;
@@ -33,14 +43,15 @@ a {
 
 #nav {
 	text-align: center;
+	font-weight: 700;
 	width: 100%;
-	position: relative;
-	top: 80%;
+	background: #ffffff;
+	margin: 20px auto 10px auto;
 }
 
 #nav > li {
 	display: inline-block;
-	margin: 0 4%;
+	margin: 0 5%;
 }
 
 #intro-cont {
@@ -49,10 +60,6 @@ a {
 
 #intro {
 	text-align: center;
-}
-
-#dot-cont {
-	color: #ffffff;
 }
 
 #project-cont {
