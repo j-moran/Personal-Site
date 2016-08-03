@@ -9,10 +9,15 @@
 	align-items: center;
 }
 
-#dot-cont > div{
-	color: #000000;
-	display: inline-block;
+#dot-cont {
+	width: 20%;
+	margin: 0 auto;
 	text-align: center;
+}
+
+#dot-cont > div {
+	display: inline-block;
+	color: #000000;
 }
 
 .cont {

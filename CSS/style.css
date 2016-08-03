@@ -4,7 +4,7 @@
 
 html {
 	height: 100%;
-	position: absolute;
+	/*position: absolute;*/
 }
 
 body {
@@ -20,6 +20,10 @@ header {
 	line-height: 1.2;
 }
 
+p {
+	margin: 8px 0;
+}
+
 a {
 	color: #000000;
 	text-decoration: none;
@@ -32,7 +36,7 @@ a {
 #logo {
 	height: 150px;
 	width: 150px;
-	margin: 0 auto;
+	margin: 25px auto 0 auto;
 }
 
 #total-cont{
