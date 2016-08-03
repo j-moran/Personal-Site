@@ -1,5 +1,5 @@
 * {
-	font-family: 'Roboto', 'Arial', sans-serif;
+	font-family: 'Roboto','Helvetica', 'Arial', sans-serif;
 }
 
 html {
@@ -68,14 +68,33 @@ a {
 
 #project-cont {
 	margin-bottom: 10px;
-	text-align: center;
 	overflow: auto;
+}
+
+#projects {
+	text-align: center;
 }
 
 #aboutMe {
 	margin-bottom: 10px;
 }
 
+#aboutMe > div {
+	padding: 25px 0 0 0;
+	text-align: center;
+}
+
+#interests {
+	margin: 0.5em 0 0 2em;
+}
+
+#interests > li {
+	margin: 10px 0;
+}
+
+#interests .levelTwo {
+	margin: 0.5em 0 0 3em;
+}
 #social{
 	text-align: center;
 }
@@ -92,6 +111,10 @@ a {
 .text {
 	color: #444444;
 	line-height: 1.5;
+}
+
+.tabbed {
+	margin-left: 2em;
 }
 
 .project-div {
