@@ -19,19 +19,14 @@ prev.addEventListener('click', function(){
 	changeSlide('previous');
 });
 
-//Create dots for projects
-function genDots(){
-
-}
-
 //Add click handlers to pagination for carousel
 function dotEvents(){
 	for(var i = 0; i < dots.length; i++){
 		dots[i].addEventListener('click', function(){
 			console.log(changeSlide('', this.id));
 		})
-	}
-}
+	};
+};
 
 //Function for slide change
 function changeSlide(option, val){

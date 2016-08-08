@@ -41,11 +41,11 @@ a {
 
 #total-cont{
 	background: #ffffff;
-	width: 60%;
+	width: 65%;
 	margin: 0 auto;
 }
 
-#nav {
+#nav-bar {
 	text-align: center;
 	font-weight: 700;
 	width: 100%;
@@ -53,7 +53,7 @@ a {
 	margin: 20px auto 10px auto;
 }
 
-#nav > li {
+#nav-bar > li {
 	display: inline-block;
 	margin: 0 5%;
 }
@@ -104,10 +104,6 @@ a {
 	margin: 0 4%;
 }
 
-#next-div {
-	height: 100%;
-}
-
 .text {
 	color: #444444;
 	line-height: 1.5;
@@ -118,7 +114,7 @@ a {
 }
 
 .project-div {
-	width: 99%;
+	width: 100%;
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -135,7 +131,6 @@ a {
 }
 
 .thumb-div{
-	height: 75%;
 	width: 50%;
 	margin: 0 auto;
 }
