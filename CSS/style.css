@@ -36,13 +36,15 @@ a {
 #logo {
 	height: 150px;
 	width: 150px;
-	margin: 25px auto 0 auto;
+	margin: 30px auto 0 auto;
 }
 
 #total-cont{
 	background: #ffffff;
 	width: 65%;
-	margin: 0 auto;
+	margin: 0 auto 30px auto;
+	box-shadow: 12px 15px 8px #083540;
+	border-radius: 2px;
 }
 
 #nav-bar {
