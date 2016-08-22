@@ -41,7 +41,7 @@ a {
 
 #total-cont{
 	background: #ffffff;
-	width: 65%;
+	width: 67.5%;
 	margin: 0 auto 30px auto;
 	box-shadow: 12px 15px 8px #083540;
 	border-radius: 2px;
@@ -70,11 +70,14 @@ a {
 
 #project-cont {
 	margin-bottom: 10px;
-	overflow: auto;
+	/*overflow: auto;*/
+	width: 90%;
 }
 
 #projects {
 	text-align: center;
+	box-shadow: 5px 5px 5px #999999;
+	border-radius: 20px;
 }
 
 #aboutMe {
